@@ -1,2 +1,1 @@
-# HoriseonPrototype
-Horiseon Code Refractor
+# Code Refactor Starter Code
