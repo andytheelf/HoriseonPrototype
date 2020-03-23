@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+section {
+    padding: 5px;
+}
+
 /*Body Background Begins*/
 body {
     background-color: #d9dcd6;
@@ -33,18 +37,14 @@ header nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
+    font-size: 1.5vw;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline;
+    margin-left: 30px;
+    list-style-type: none;
 }
-/*Header Section Ends*/
 
 a {
     color: #ffffff;
@@ -54,6 +54,8 @@ a {
 p {
     font-size: 16px;
 }
+/*Header Section Ends*/
+
 
 /* Banner Display Begins*/
 .hero {
@@ -66,134 +68,102 @@ p {
 }
 /*Banner Display Ends*/
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*Benefits Display Begins*/
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    margin: 25px 30px 0 15px;
+    padding: 10px 10px 0 10px;
     clear: both;
-    float: right;
-    width: 20%;
+    width: 15%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    float: right;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
+    padding: 50px 0 50px 0;
+    display: inline-block;
+}
+.benefit p{
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+    overflow-wrap: break-word;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    overflow-wrap: break-word;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/*Benefits Section Ends*/
+
+/*Three Tier Section Begins*/
+
+.content {
+    width: 75%;
+    margin:0 0 20px 30px;
+    display: inline-block;
+    margin-top: 30px;
 }
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.content img {
+  width: 50%;
+  float: left;
+  vertical-align: middle;
+  padding: 50px;
+ }
+
+.text-left {
+   text-align: left;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+.text-right {
+    text-align: right;
+}
+
+.content-information {
+    padding: 8%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-.online-reputation-management {
+.content-information h2 {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+ 
+.content-information p {
+     line-height: 1.2;
+     font-size: 1.6vw;
+    text-align: justify;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+ #reputation {
+     width: 50%;
+     float: right;
+     padding: 50px;
+     padding-top: 50px;
+ }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*Three Tier Section Ends*/
 
 
 /* Footer Section Begins*/
