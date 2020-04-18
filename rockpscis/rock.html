@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rock Paper Scissors Part 6</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
+      var computerChoices = ['r', 'p', 's'];
+
+      for (var i=0; i< 3; i++) { 
+   var num = Math.floor(Math.random() * 10) + 1;
+   console.log(num);
+}
+​
+      // Creating variables to hold the number of wins, losses, and ties. They start at 0.
+      var wins = 0;
+      var losses = 0;
+      var ties = 0;
+​
+		              // how many games in a round? 3 in this case.
+      for (var i = 0; i < 3; i++) {
+        // Randomly chooses a choice from the options array. This is the Computer's guess.
+        var computerGuess // what goes here?
+​
+        // Collect the user's response and convert to lower case.
+        var userGuess // what goes here?
+​
+        // Only run game logic if user chose a valid option
+        if (userGuess === 'r' || userGuess === 'p' || userGuess === 's') {
+         // what goes here?
+        } else {
+          alert("Please choose 'r', 'p' or 's'!"); // you didn't choose an acceptable letter!
+        }
+      }
+​
+      // When the game is over, alert the totals to the user. We can use the \n character to make a line break.
+      alert(
+        'Total wins: ' +
+          wins +
+          '\nTotal ties: ' +
+          ties +
+          '\nTotal losses: ' +
+          losses
+      );
+    </script>
+  </body>
+</html>
